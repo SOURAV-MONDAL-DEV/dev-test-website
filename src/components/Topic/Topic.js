@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import './Topic.css'
 
 const Topic = ({topic}) => {
-    const {name, logo, total} = topic
+    const {id, name, logo, total} = topic
     return (
         <div className='topic-container'>
             <div className='topic-img'>
@@ -12,7 +12,7 @@ const Topic = ({topic}) => {
             <h1>{name}</h1>
             <div className='topic-info' >
                <p>Total quize : {total}</p>
-               <Link><button>start</button></Link>
+               <Link to={`/quizpage/${id}`}><button>start</button></Link>
             </div>
         </div>
     );
