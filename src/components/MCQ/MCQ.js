@@ -4,7 +4,7 @@ const MCQ = ({mcq}) => {
     const {options,id,question,correctAnswer} = mcq;
     return (
         <div>
-            {question}
+            <h1>{question.slice(3,(question.length - 4))}</h1>
             <p>eta ekta mcq {id}</p>
         </div>
     );
