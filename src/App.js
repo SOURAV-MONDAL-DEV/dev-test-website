@@ -31,10 +31,9 @@ function App() {
         {
           path: '/quizpage/:topicId',
           loader: async ({params}) => {
-            console.log(params)
             return fetch(`https://openapi.programming-hero.com/api/quiz/${params.topicId}`)
           },
-          element: <QuizPage></QuizPage>
+          element: <QuizPage ></QuizPage>
         }
       ]
       
