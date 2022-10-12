@@ -1,0 +1,14 @@
+.qpc{
+    margin: 0px 50px;
+}
+.qphc{
+    background-color: rgb(166, 176, 176);
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+.qph1, .qph4{
+    color: white;
+}
+.qphc img{
+    width: 200px;
+}

@@ -1,0 +1,15 @@
+.mcq-container{
+    background-color: rgb(8, 246, 191);
+    border-radius: 8px;
+    margin: 10px auto;
+    padding: 10px;
+}
+.ops-container{
+    text-align: start;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin: 0px auto;
+    width:400px;
+    padding: 5px;
+    
+}
