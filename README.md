@@ -68,3 +68,21 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+### project name:
+---- DIV TEST (Assignment-9)
+
+### Live website link:
+
+
+### What I do in the project:
+the project is about web development related quiz. 
+1. first I am creating react app.
+2. then follow the instruction aap following assignment.
+3. I setup react-router-dom for route easily one page to another page.
+4. I am creating a homepage with the topic given from the data. 
+5. I am dynamically create the MCQ by the quiz topic. 
+6. Also I create a statistics  page that show the chat of the topic and its questions. 
+7. at last I create a blog page. 
+8. Also the site I made is responsive.

@@ -10,7 +10,6 @@ const Home = () => {
             <div className="header">
                 <h1>Test your skills here.</h1>
                 <p>Please select a Topic for start Quiz to test your<br/> Web Development language knowledge</p>
-                {/* <button className="donet-now-btn"> Donet now</button> */}
             </div>
             <h1 className='select'>Select your Quiz topic:</h1>
             <div>

@@ -11,6 +11,7 @@ import Main from './layouts/Main';
 
 
 function App() {
+  // seting Route
   const router = createBrowserRouter([
     {
       path:'/',
