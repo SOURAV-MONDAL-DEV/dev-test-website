@@ -9,6 +9,8 @@
 .nftext{
     position: absolute;
     top: 25%;
-    left: 25%;
+    left: 0;
+    right: 0;
     
 }
+
