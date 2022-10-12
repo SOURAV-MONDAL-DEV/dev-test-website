@@ -1,10 +1,12 @@
 .mcq-container{
-    background-color: rgb(8, 246, 191);
+    background-color: rgb(8, 210, 246);
     border-radius: 8px;
     margin: 10px auto;
     padding: 10px;
+    position: relative;
 }
 .ops-container{
+    background-color: rgb(79, 246, 232);
     text-align: start;
     border: 1px solid gray;
     border-radius: 5px;
@@ -13,3 +15,33 @@
     padding: 5px;
     
 }
+.eyecon{
+    width: 50px;
+    position: absolute;
+    top: 0;
+    right: 15px;
+
+}
+
+@media screen and (max-width: 600px){
+    .ops-container{
+        width: 60vw;
+    }
+    .mcq-container h1{
+        font-size: 1.5rem;
+    }
+    .eyecon{
+        width: 30px;
+        position: absolute;
+        top: 0;
+        right: 15px;
+    
+    }
+}
+@media screen and (max-width: 500px){
+    
+    .mcq-container h1{
+        font-size: 1rem;
+    }
+}
+

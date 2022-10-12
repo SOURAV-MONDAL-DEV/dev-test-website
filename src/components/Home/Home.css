@@ -9,6 +9,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    border-radius: 8px;
 }
 
 .header h1{
@@ -21,10 +22,32 @@
     text-align: center;
     margin: 20px;
 }
-/* .donet-now-btn{
-    font-size: 20px;
-    color: white;
-    background-color: rgb(13, 151, 8);
-    padding: 10px;
-    border-radius: 10px;
-} */
+.select{
+    margin: 30px 200px;
+    padding: 15px;
+    color: rgb(119, 43, 226);
+    border-bottom: 2px dashed rgb(6, 223, 243);
+}
+
+@media screen and (max-width: 850px){
+    
+    .header{
+        width: 95vw;
+    }
+    .select{
+        margin: 30px 50px;
+        color: rgb(119, 43, 226);
+        border-bottom: 2px dashed rgb(6, 223, 243);
+    }
+}
+@media screen and (max-width: 500px){
+    
+    .header{
+        width: 95vw;
+    }
+    .select{
+        margin: 30px 10px;
+        color: rgb(119, 43, 226);
+        border-bottom: 2px dashed rgb(6, 223, 243);
+    }
+}

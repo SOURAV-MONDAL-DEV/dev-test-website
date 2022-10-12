@@ -1,14 +1,16 @@
 .header-container{
-    margin: 30px;
+    background-color: rgb(2, 240, 244);
+    padding: 30px 110px;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 20px;
 }
 .logoNname{
     display: flex;
     align-items: center;
 }
 .logoNname h1{
-    
+    color: rgb(249, 71, 1);
     margin: 15px;
 }
 
@@ -18,10 +20,54 @@
 }
 
 .Head-Nav a{
+    font-size: 1.5rem;
+    color: rgb(255, 0, 0);
     text-decoration: none;
-    margin-right: 5px;
+    margin-right: 10px;
+}
+.Head-Nav a:hover {
+    color: rgb(230, 247, 246);
+    background-color: rgb(107, 1, 255);
+    padding: 5px;
+    border-radius: 4px;
 }
 .Head-Nav{
     display: flex;
     align-items: center;
+}
+
+
+@media screen and (max-width: 600px){
+    .header-image{
+        width: 60px;
+        height: auto;
+    }
+    .logoNname h1{
+        font-size: 1.5rem;
+        margin: 8px;
+    }
+    .Head-Nav a{
+
+        font-size: 1rem;
+        margin-right: 3px;
+    }
+    .header-container{
+        padding: 30px 10px;
+    }
+}
+@media screen and (max-width: 800px){
+    .Head-Nav a{
+        margin-right: 6px;
+    }
+    .header-container{
+        padding: 30px 10px;
+    }
+}
+@media screen and (max-width: 300px){
+    .Head-Nav {
+        display: flex;
+        flex-direction: column;
+        margin-right: 6px;
+    }
+  
 }

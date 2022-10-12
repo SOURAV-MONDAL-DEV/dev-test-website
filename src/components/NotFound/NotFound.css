@@ -1,0 +1,14 @@
+
+
+.notfound{
+    background-color: rgb(232, 128, 240);
+    height: 600px;
+    position: relative;
+}
+
+.nftext{
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    
+}

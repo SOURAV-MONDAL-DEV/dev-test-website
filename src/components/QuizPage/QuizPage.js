@@ -26,6 +26,19 @@ const QuizPage = () => {
             });
     }
 
+    const notify2 =(ans)=>{
+        toast.success('correct ans is : '+ ans, {
+            position: "top-center",
+
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            toastId: customId
+            });
+    }
+
 
 
     return (
@@ -41,6 +54,7 @@ const QuizPage = () => {
                         key={mcq.id}
                         mcq={mcq}
                         notify={notify}
+                        notify2={notify2}
                     ></MCQ>)
                 }
             </div>

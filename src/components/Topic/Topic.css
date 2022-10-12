@@ -1,6 +1,6 @@
 
 .topic-container{
-    width: 80vh;
+    width: 60vw;
     margin: 20px auto;
     border: 2px gray solid;
     border-radius: 8px;
@@ -13,4 +13,37 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+}
+
+.topic-info button{
+    color: white;
+    background-color: blueviolet;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.topic-info p{
+    font-weight: 500;
+}
+
+
+@media screen and (max-width: 850px){
+    .topic-container{
+        width: 90vw;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .topic-container{
+        width: 90vw;
+    }
+    .topic-img img{
+        width: 60vw;
+    }
+}
+@media screen and (max-width: 450px){
+    .topic-img img{
+        width: 90vw;
+    }
 }

@@ -2,7 +2,7 @@
     margin: 0px 50px;
 }
 .qphc{
-    background-color: rgb(166, 176, 176);
+    background-color: rgb(24, 241, 78);
     border-radius: 10px;
     padding-bottom: 20px;
 }
@@ -11,4 +11,10 @@
 }
 .qphc img{
     width: 200px;
+}
+
+@media screen and (max-width: 600px){
+    .qpc{
+        margin: 0px 10px;
+    }
 }
