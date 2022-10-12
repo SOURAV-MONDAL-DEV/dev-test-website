@@ -73,7 +73,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 ### project name:
 ---- DIV TEST (Assignment-9)
 
-### Live website link:
+### Live website link: https://dev-test-quiz.netlify.app/
 
 
 ### What I do in the project:
